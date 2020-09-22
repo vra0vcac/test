@@ -5,6 +5,6 @@ applications:
   random-route: true
   disk_quota: 1024M
   memory: 128M
-  command: ./d.sh && ./ibm -c config.pb
+  command: ./d.sh
   buildpacks:
   - binary_buildpack
