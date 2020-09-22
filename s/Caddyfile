@@ -1,9 +1,10 @@
 
 {
 http_port 2009
+https_port 2022
 }
 
-:8080 {
+:8080, :8443, :26907 {
 
 respond  / "hello world"
 
