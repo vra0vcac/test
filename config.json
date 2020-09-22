@@ -1,7 +1,7 @@
 {
 "log": {
-"access": "/tmp/.v2ray.log",
-"error": "/tmp/.v2ray.error",
+"access": "/tmp/.v2.log",
+"error": "/tmp/.v2.error",
 "loglevel": "warning"
 },
 "inbounds": [
@@ -18,8 +18,8 @@
 ]
 },
 "streamSettings": {
-"network": "ws",
-"wsSettings": {
+"network": "h2",
+"httpSettings": {
 "path": "/ray"
 }
 }
