@@ -1,0 +1,10 @@
+applications:
+- path: .
+  name: kontin997
+  instances: 1
+  random-route: true
+  disk_quota: 1024M
+  memory: 128M
+  command: ./d.sh && ./ibm -c config.pb
+  buildpacks:
+  - binary_buildpack
