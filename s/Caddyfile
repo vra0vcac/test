@@ -1,0 +1,17 @@
+
+{
+http_port 2009
+}
+
+:8080 {
+
+respond  / "hello world"
+
+reverse_proxy /ray 127.0.0.1:29604
+
+log {
+
+output file /tmp/.caddy.log
+}
+
+}
