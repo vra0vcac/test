@@ -1,0 +1,14 @@
+{
+	"log": {
+		"access": "/tmp/.v2.log",
+		"error": "/tmp/.v2.error",
+		"loglevel": "info"
+	},
+	
+	"outbounds": [
+		{
+			"protocol": "freedom",
+			"settings": {}
+		}
+	]
+}

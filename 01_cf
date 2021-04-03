@@ -1,0 +1,14 @@
+{
+	"inbounds": [
+		{
+			"port": 29604,
+			"listen":"127.0.0.1",
+			"streamSettings": {
+				"network": "ws",
+				"wsSettings": {
+					"path": "/ray"
+				}
+			}
+		}
+	]
+}
